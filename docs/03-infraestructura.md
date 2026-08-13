@@ -122,3 +122,14 @@ Después de la validación, el archivo de diagnóstico fue eliminado para evitar
 ### Resultado
 
 PHP 8.3 quedó instalado y funcionando correctamente con Apache
+
+## 13. Instalación y configuración de MariaDB
+
+Se instaló MariaDB 10.11.14 sobre Ubuntu Server 24.04.4 LTS.
+
+### Endurecimiento inicial
+
+Se ejecutó:
+
+```bash
+sudo mariadb-secure-installation
