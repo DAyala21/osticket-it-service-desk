@@ -91,3 +91,34 @@ Se creó una VM independiente para:
 ## 10. Estado
 
 Servidor preparado para comenzar el despliegue de la plataforma osTicket.
+
+## 11. Despliegue del servidor web
+
+Se instaló Apache2 sobre Ubuntu Server 24.04.4 LTS.
+
+### Verificación del servicio
+
+El servicio Apache fue validado mediante:
+
+```bash
+sudo systemctl status apache2 --no-pager
+
+## 12. Instalación y validación de PHP
+
+Se instaló PHP 8.3 utilizando los repositorios oficiales de Ubuntu 24.04.
+
+Paquetes principales instalados:
+
+- PHP 8.3
+- PHP 8.3 CLI
+- libapache2-mod-php8.3
+
+La integración entre Apache y PHP fue validada mediante una página temporal `phpinfo()` accesible desde la red interna.
+
+La prueba confirmó que Apache puede procesar archivos PHP correctamente.
+
+Después de la validación, el archivo de diagnóstico fue eliminado para evitar exponer información del entorno del servidor.
+
+### Resultado
+
+PHP 8.3 quedó instalado y funcionando correctamente con Apache
