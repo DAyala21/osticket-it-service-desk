@@ -1,5 +1,21 @@
 # SSH keys
 *.pub
+id_ed25519
+id_ed25519.pub
+Aic0250935
+Aic0250935.pub
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/# SSH keys
+*.pub
 id_*
 Aic0250935
 Aic0250935.pub
